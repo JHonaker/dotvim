@@ -16,5 +16,10 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Vim-R-plugin'
 Bundle 'kovisoft/slimv'
 
+" Color schemes
+Bundle 'jellybeans.vim'
+
+colorscheme jellybeans
+
 " SLIMV setup
 let g:slimv_swank_cmd = '!osascript -e "tell application \"Terminal\" to do script \"sbcl --load ~/.vim/bundle/slimv/slime/start-swank.lisp\""'
