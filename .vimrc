@@ -24,7 +24,7 @@ syntax on
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
+set 
 " Set up hiding modified buffers
 set hidden
 
@@ -64,6 +64,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Vim-R-plugin'
 Bundle 'kovisoft/slimv'
 Bundle 'tpope/vim-surround'
+Bundle 'Valloric/YouCompleteMe'
 
 " Color schemes
 Bundle 'jellybeans.vim'
