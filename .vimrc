@@ -3,6 +3,9 @@ set number
 " I don't care about compatability with VI
 set nocompatible
 
+" I don't want line wrap by default
+set nowrap
+
 " I like highlight search and incremental search
 set hlsearch
 set incsearch
@@ -11,8 +14,16 @@ filetype on
 filetype plugin on
 filetype indent on
 
+" In order to use aliases in bash commands, bash to login mode
+set shellcmdflag=-lc
+
 " Turn syntax highligting on
 syntax on
+
+" I hate 8 space tabs, move to 4.
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " Set up hiding modified buffers
 set hidden
@@ -48,9 +59,11 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 "
 " original repos on github
+Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Vim-R-plugin'
 Bundle 'kovisoft/slimv'
+Bundle 'tpope/vim-surround'
 
 " Color schemes
 Bundle 'jellybeans.vim'
