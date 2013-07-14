@@ -63,7 +63,8 @@ set listchars+=eol:¬
 set lazyredraw
 
 " Show mode I'm in and the current command
-set showmode
+" set showmode " Comment out when using powerline.
+set noshowmode
 set showcmd
 
 " Setting up Vundle Pagacke Manager
