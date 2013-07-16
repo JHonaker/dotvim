@@ -84,6 +84,8 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'jelera/vim-javascript-syntax'
 Bundle 'honza/vim-snippets'
 Bundle 'UltiSnips'
+Bundle 'itspriddle/vim-marked'
+Bundle 'mattn/zencoding-vim'
 Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " Color schemes
