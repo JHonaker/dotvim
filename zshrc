@@ -94,3 +94,8 @@ export PATH=$PATH:$HOME/julia
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Lines added by the Vim-R-plugin command :RpluginConfig (2014-May-10 10:19):
+# Change the TERM environment variable (to get 256 colors) and make Vim
+# connecting to X Server even if running in a terminal emulator (to get
+# dynamic update of syntax highlight and Object Browser):

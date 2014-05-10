@@ -283,3 +283,20 @@ augroup filetype_vim
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""}}}
+
+" Lines added by the Vim-R-plugin command :RpluginConfig (2014-May-10 10:17):
+" Use Ctrl+Space to do omnicompletion:
+if has("gui_running")
+    inoremap <C-Space> <C-x><C-o>
+else
+    inoremap <Nul> <C-x><C-o>
+endif
+" Press the space bar to send lines and selection to R:
+vmap <Space> <Plug>RDSendSelection
+nmap <Space> <Plug>RDSendLine
+
+" Vim-R-tmux options
+"let vimrplugin_term = "xterm"
+let vimrplugin_vsplit = 1
+let vimrplugin_rconsole_width = 72
+let vimrplugin_notmuxconf = 1
